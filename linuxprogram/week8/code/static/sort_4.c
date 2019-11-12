@@ -25,7 +25,7 @@ void sort_4() {
 	printf("请选择：");
 	scanf("%d", &choice);
 
-	switch (button)
+	switch (choice)
 		{
 		case 1: chmod(filename, S_IRUSR); break;
 		case 2: chmod(filename, S_IWUSR); break;
